@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.sd.flowlayouttest.view.FlowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#55A2DF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:padding="4dp"
+            android:textSize="20sp"
+            android:text="语文" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:padding="4dp"
+            android:textSize="30sp"
+            android:text="数学" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:padding="4dp"
+            android:textSize="10sp"
+            android:text="英语" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:text="政治" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:padding="4dp"
+            android:textSize="36sp"
+            android:text="历史" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:padding="4dp"
+            android:textSize="24sp"
+            android:text="地理" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:padding="4dp"
+            android:textSize="26sp"
+            android:text="物理" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:padding="4dp"
+            android:textSize="12sp"
+            android:text="化学" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:padding="4dp"
+            android:textSize="16sp"
+            android:text="生物" />
+    </com.sd.flowlayouttest.view.FlowLayout>
+
+</LinearLayout>
